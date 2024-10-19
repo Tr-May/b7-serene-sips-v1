@@ -4,7 +4,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -81,6 +81,46 @@ footer {
   font-family: "Playfair Display SC", serif;
   font-size: 2em;
   margin-bottom: 10px;
+}
+
+#our-menu .menu {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+#our-menu .menu h3 {
+  padding: 10px 0;
+  text-align: left;
+}
+.card {
+  border: 2px solid #000;
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+}
+.card .card-img-top {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.card h4 {
+  padding: 10px;
+}
+.card p {
+  line-height: 1.5rem;
+}
+.card .price {
+  font-weight: bold;
+  font-style: italic;
+}
+.card a {
+  display: block;
+  background-color: #49281a;
+  padding: 10px;
+  text-decoration: none;
+  color: #f0e2c5;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 /* about-us section  */
 #about-us p,
